@@ -1,0 +1,103 @@
+@import "tailwindcss";
+
+
+@font-face {
+    font-family: 'NanumSquareNeo';
+    font-style: normal;
+    font-weight: 300;
+    src: url('./fonts/NanumSquareNeoTTF-aLt.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'NanumSquareNeo';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/NanumSquareNeoTTF-bRg.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'NanumSquareNeo';
+    font-style: normal;
+    font-weight: 700;
+    src: url('./fonts/NanumSquareNeoTTF-cBd.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'NanumSquareNeo';
+    font-style: normal;
+    font-weight: 800;
+    src: url('./fonts/NanumSquareNeoTTF-dEb.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'NanumSquareNeo';
+    font-style: normal;
+    font-weight: 900;
+    src: url('./fonts/NanumSquareNeoTTF-eHv.woff2') format('woff2');
+}
+
+body {
+    font-family: 'NanumSquareNeo', sans-serif;
+    font-weight: 400;
+    color: #1B1B1D;
+}
+
+p, a, h1, h2, h3, h4, h5, h6, span, li, ul, ol {
+    font-family: 'NanumSquareNeo', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.text-main-blue {
+    color: #11A9F1;
+}
+
+.text-sub-blue {
+    color: #74D5FF;
+}
+
+.bg-main-blue {
+    background-color: #11A9F1;
+}
+
+.bg-sub-blue {
+    background-color: #74D5FF;
+}
+
+.custom-shadow {
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.index_bg {
+    background-image: url('./images/bg_1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* height: 100vh; */
+}
+
+.section3_bg {
+    background-image: url('./images/bg_3.png');
+    background-size: cover;
+    background-position: bottom center;
+    height: 450px;
+    background-repeat: no-repeat;
+}
+
+.section6_bg {
+    background-image: url('./images/bg_6.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.section7_bg {
+    background-image: url('./images/bg_7.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
